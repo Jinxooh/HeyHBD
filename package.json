@@ -1,0 +1,19 @@
+{
+  "name": "heyBDP",
+  "version": "1.0.0",
+  "description": "for my lover",
+  "main": "index.js",
+  "author": "jinxooh <cjswp122@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "graphql-yoga": "^1.18.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
+}
